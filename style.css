@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: lightgray;
+    width: max-content;
+    margin: auto;
+}
+
+.display {
+    width: 50vmax;
+    background-color: darkgray;
+    height: 10vh;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 1 25%;
+}
+
