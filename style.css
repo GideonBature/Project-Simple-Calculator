@@ -5,27 +5,48 @@
 
 .container {
     background: lightgray;
-    width: max-content;
+    width: 50%;
     margin: auto;
 }
 
 .display {
-    width: 50vmax;
+    width: auto;
     background-color: darkgray;
     height: 10vh;
     font-size: 48px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 10px;
 }
 
 .buttons {
-    max-width: 400px;
+    max-width: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 button {
     flex: 1 25%;
+    padding: 15px;
+    font-size: 26px;
 }
+
+.btn-number {
+    background-color: gray;
+}
+
+.btn-operator {
+    background-color: orange;
+}
+
+.btn-equals {
+    background-color: green;
+}
+
+.btn-clear {
+    background-color: crimson;
+}
+
+
 
