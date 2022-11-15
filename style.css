@@ -84,3 +84,7 @@
   .cal-button:active {
     background-color: rgb(73, 73, 73);
   }
+
+  footer {
+    text-align: center;
+  }
